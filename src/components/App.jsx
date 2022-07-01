@@ -1,10 +1,13 @@
 import React from "react";
+import '../styles/global.scss';
 
 const App = () => {
-  return (
-    <div>
-      <h1>Hola mundo</h1>
-      <p>I'm a message from the react app, hello there.</p>
+  const view = (
+    <div className="main-container">
+      <h1>Hello world I'm using React to build this site!</h1>
+      <p>
+        I'm a message from the react app, hello there. I'm going to introduce myself, I'm Arcano a frontend developer who enjoys maths, logic and design as well.
+      </p>
       <h2>This is some other list</h2>
       <ul>
         <li>Hello</li>
@@ -14,6 +17,8 @@ const App = () => {
       </ul>
     </div>
   );
+
+  return view;
 }
 
 export default App;
