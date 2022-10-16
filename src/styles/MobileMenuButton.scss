@@ -1,0 +1,9 @@
+.mobile-menu-icon {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .mobile-menu-icon {
+    display: block;
+  }
+}
