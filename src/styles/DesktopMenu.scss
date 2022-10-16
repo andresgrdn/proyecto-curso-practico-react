@@ -1,0 +1,39 @@
+.DesktopMenu {
+  text-align: end;
+
+  border: 1px solid var(--very-light-pink);
+  padding: 24px;
+  width: 152px;
+  height: auto;
+
+  border-radius: 4px;
+
+  li {
+    padding-bottom: 28px;
+
+    list-style: none;
+  }
+
+  a {
+    font-size: var(--md);
+    font-weight: bold;
+
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  /*Sign out*/
+  li:last-child {
+    padding-top: 16px;
+    padding-bottom: 0;
+    border-top: 1px solid var(--very-light-pink);
+  }
+
+  /*Sign out link*/
+  li:last-child a {
+    font-size: var(--sm);
+
+    color: var(--hospital-green);
+  }
+
+}

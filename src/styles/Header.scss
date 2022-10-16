@@ -1,4 +1,5 @@
 nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,19 +44,16 @@ nav a {
   color: var(--black);
 }
 
-.left-side figure,
-.right-side .cart-icon {
+.left-side figure {
   display: grid;
   place-content: center;
 }
 
-.right-side .no-notification {
-  display: none;
+.DesktopMenu {
+  position: absolute;
+  top: 60px;
+  right: 60px;
 }
-
-/* .right-side .notification {
-      display: none;
-    } */
 
 @media (max-width: 640px) {
   .left-side img {
