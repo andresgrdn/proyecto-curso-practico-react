@@ -1,9 +1,9 @@
-.mobile-menu-icon {
+.MobileMenuButton {
   display: none;
 }
 
 @media (max-width: 640px) {
-  .mobile-menu-icon {
+  .MobileMenuButton {
     display: block;
   }
 }
