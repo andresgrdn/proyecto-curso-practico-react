@@ -3,6 +3,8 @@ import '@styles/Header.scss';
 import MobileMenuButton from "@components/MobileMenuButton";
 import ShoppingCartButton from "@components/ShoppingCartButton";
 import FilterTabs from "@components/FilterTabs";
+import logo from "@logos/logo_yard_sale.svg";
+import arrow from "@icons/flechita.svg";
 
 const Header = () => {
   return (
@@ -11,7 +13,7 @@ const Header = () => {
 
       <div className="left-side">
         <figure>
-          <img src="./assets/logos/logo_yard_sale.svg" alt="logo" className="logo" />
+          <img src={logo} alt="logo" className="logo" />
         </figure>
 
         <FilterTabs />
@@ -20,7 +22,7 @@ const Header = () => {
       <div className="right-side">
         <div className="account">
           <a href="#">camilayokoo@gmail.com</a>
-          <img src="./assets/icons/flechita.svg" alt="flecha" />
+          <img src={arrow} alt="flecha" />
         </div>
         <ShoppingCartButton />
       </div>
