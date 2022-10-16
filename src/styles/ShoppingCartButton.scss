@@ -1,0 +1,13 @@
+.ShoppingCartButton {
+  display: grid;
+  place-content: center;
+}
+
+
+.ShoppingCartButton.no-notification {
+  display: block;
+}
+
+.ShoppingCartButton.notification {
+  display: none;
+}
