@@ -1,0 +1,22 @@
+.FilterTabs {
+  display: flex;
+
+  list-style: none;
+}
+
+.FilterTabs a {
+  border: 1px solid #00000000;
+  padding: 8px;
+
+  font-size: var(--md);
+
+  border-radius: 8px;
+  color: var(--very-light-pink);
+  text-decoration: none;
+}
+
+.FilterTabs a:hover {
+  border: 1px solid var(--hospital-green);
+
+  color: var(--hospital-green);
+}
