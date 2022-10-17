@@ -1,12 +1,17 @@
 import React from "react";
+import Layout from "@containers/Layout";
+import Header from "@containers/Header";
+import FilterBar from "@containers/FilterBar";
+import Products from "@containers/Products";
 
-const NotFound = () => {
+const Home = () => {
   return (
-    <div>
-      <h1>Yardsale shop</h1>
-      <p>Welcome to the store of your dreams.</p>
-    </div>
+    <Layout>
+      <Header />
+      <FilterBar />
+      <Products />
+    </Layout>
   );
 }
 
-export default NotFound;
+export default Home;
