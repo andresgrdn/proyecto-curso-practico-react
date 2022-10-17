@@ -1,0 +1,44 @@
+ .CreateAccountForm {
+   display: grid;
+   place-items: center;
+
+   width: 100%;
+   height: calc(100vh - var(--header-height));
+
+   .CreateAccountForm__title {
+     margin-bottom: 52px;
+
+     font-size: var(--lg);
+   }
+
+   .CreateAccountForm__form-container {
+     width: 300px;
+
+     .input-create-account-button {
+       margin-top: 14px;
+     }
+   }
+
+ }
+
+ @media (max-width: 640px) {
+   .CreateAccountForm__form-container {
+     height: 100%;
+
+     .form {
+       display: flex;
+       flex-direction: column;
+       --header-plus-title-height: 167px;
+
+       height: calc(100% - var(--header-plus-title-height));
+
+       .input-create-account-button {
+         margin-top: auto;
+       }
+     }
+   }
+
+   .CreateAccountForm__title {
+     margin-top: 32px;
+   }
+ }

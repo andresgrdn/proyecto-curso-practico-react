@@ -5,25 +5,31 @@
   padding: 0;
 }
 
-:root {
-  --very-light-pink: #C7C7C7;
-  --text-input-field: #F7F7F7;
-  --hospital-green: #ACD9B2;
-  --white: #FFFFFF;
-  --black: #000000;
-  --dark: #232830;
-
-  --sm: 14px;
-  --md: 16px;
-  --lg: 18px;
-
-  --card-size: 232px;
-  --add-to-chart-icon-size: 40px;
-
-  --mobile-card-size: 152px;
-  --mobile-add-to-chart-icon-size: 36px;
+body {
+  font-family: var(--default-font-family);
 }
 
-body {
-  font-family: 'Quicksand', sans-serif;
+label {
+  display: block;
+  width: 100%;
+
+  margin-bottom: var(--bold-space);
+
+  font-size: var(--sm);
+  font-weight: bold;
+}
+
+input {
+  display: block;
+
+  margin-bottom: var(--bolder-spacer);
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  width: 100%;
+  height: 30px;
+
+  font-size: var(--md);
+
+  background-color: var(--text-input-field);
 }
