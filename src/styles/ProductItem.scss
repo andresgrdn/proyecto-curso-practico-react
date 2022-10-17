@@ -1,0 +1,60 @@
+.ProductItem {
+  width: var(--card-size);
+
+  >img {
+    width: var(--card-size);
+    height: var(--card-size);
+
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 12px;
+
+    /*Price*/
+    p:nth-child(1) {
+      font-size: var(--md);
+      font-weight: bold;
+    }
+
+    /*Name*/
+    p:nth-child(2) {
+      font-size: var(--sm);
+
+      color: var(--very-light-pink);
+    }
+
+    figure {
+      cursor: pointer;
+    }
+
+    img {
+      width: var(--add-to-chart-icon-size);
+
+      object-fit: contain;
+    }
+  }
+
+
+}
+
+@media (max-width: 640px) {
+  .ProductItem {
+    width: var(--mobile-card-size);
+
+    >img {
+      width: var(--mobile-card-size);
+      height: var(--mobile-card-size);
+    }
+
+    .description img {
+      width: var(--mobile-add-to-chart-icon-size);
+    }
+  }
+
+}
