@@ -5,15 +5,13 @@ import "@styles/NotFound.scss";
 
 const NotFound = () => {
   return (
-    <>
+    <Layout>
       <Header />
-      <Layout>
-        <div className="NotFound">
-          <h2>Error 404</h2>
-          <p> Page not found</p>
-        </div>
-      </Layout>
-    </>
+      <div className="NotFound">
+        <h2>Error 404</h2>
+        <p> Page not found</p>
+      </div>
+    </Layout>
   );
 }
 
