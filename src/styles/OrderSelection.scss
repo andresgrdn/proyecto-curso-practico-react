@@ -1,0 +1,14 @@
+.OrderSelection {
+  text-align: center;
+}
+
+.OrderSelection__label {
+  display: inline;
+}
+
+.OrderSelection__select {
+  border: none;
+  background-color: transparent;
+  color: var(--very-light-pink-darker);
+  cursor: pointer;
+}
