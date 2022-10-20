@@ -1,5 +1,23 @@
-@media (min-width: 640px) {
-  .FilterBar .FilterTabs {
-    display: none;
+  .FilterBar {
+    padding: 24px;
+
+    >* {
+      margin-bottom: 20px;
+    }
   }
-}
+
+  @media (min-width: 640px) {
+    .FilterBar {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      .FilterTabs {
+        display: none;
+      }
+
+      .SearchBar {
+        flex-grow: 1;
+      }
+    }
+  }
