@@ -1,12 +1,12 @@
 import React from "react";
 import FilterTabs from "@components/FilterTabs";
+import SearchBar from "@components/SearchBar";
 import "@styles/FilterBar.scss";
 
 const FilterBar = () => {
   return (
     <div className="FilterBar">
-      <h2>filters container</h2>
-      SearchBar
+      <SearchBar />
       <FilterTabs />
       OrderSelection
     </div>
