@@ -1,11 +1,12 @@
 :root {
   --very-light-pink: #C7C7C7;
+  --very-light-pink-darker: #797979;
   --text-input-field: #F7F7F7;
   --text-input-field-darker: hsl(0, 0%, 95%);
   --hospital-green: #ACD9B2;
   --white: #FFFFFF;
   --black: #000000;
-  --dark: #232830;
+  --dark: hsl(217, 16%, 16%);
 
   --regular-space: 8px;
   --bold-space: 12px;

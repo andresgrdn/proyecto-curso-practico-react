@@ -1,6 +1,7 @@
 import React from "react";
 import FilterTabs from "@components/FilterTabs";
 import SearchBar from "@components/SearchBar";
+import OrderSelection from "@components/OrderSelection";
 import "@styles/FilterBar.scss";
 
 const FilterBar = () => {
@@ -8,7 +9,7 @@ const FilterBar = () => {
     <div className="FilterBar">
       <SearchBar />
       <FilterTabs />
-      OrderSelection
+      <OrderSelection />
     </div>
   );
 }
